@@ -16,7 +16,7 @@
 # s = "image.png"
 # print(s.endswith(".png"))
 
-# s = "ababa"
+s = "ababa"
 # print(s.count("aba")) # Кол-во вхождений подстроки БЕЗ пересечения
-# print(s.count.__doc__)
+print(s.count.__doc__)
 
