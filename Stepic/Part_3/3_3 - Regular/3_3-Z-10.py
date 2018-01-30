@@ -31,7 +31,5 @@ import re
 
 for line in sys.stdin:
     line = line.rstrip()
-    match_object = re.match(r'(0|1(01*0)*1)*', line)
-    print('CHECK', match_object)
-    if match_object. != '':
+    if re.fullmatch(r'(0|1(01*0)*1)*', line):
         print(line)
